@@ -99,10 +99,6 @@ public class ArticleListAdapter extends CursorRecyclerViewAdapter<ArticleListAda
         public ViewHolder(View view) {
             super(view);
             ButterKnife.bind(this, view);
-//            thumbnailView = (DynamicHeightNetworkImageView) view.findViewById(R.id.thumbnail);
-//            titleView = (TextView) view.findViewById(R.id.article_title);
-//            subtitleView = (TextView) view.findViewById(R.id.article_subtitle);
-//            authorView = (TextView) view.findViewById(R.id.article_author);
         }
     }
 }
